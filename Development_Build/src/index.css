@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Container {
+    font-style: 'Nunito', sans-serif;
+    padding-bottom: .5rem;
+    padding-top: 3rem;
+    max-width: 100%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .Container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Container {
+        max-width: 1140px;
+    }
+}
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    transition: all 0.5s;
+}

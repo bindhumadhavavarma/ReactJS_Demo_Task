@@ -1,0 +1,87 @@
+input,
+select,
+button {
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover {
+    padding: 20px;
+    margin-bottom: 35px;
+    background-color: #ff7575;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c;
+    width: 80%;
+}
+
+.filterOption {
+    padding: 20px;
+    margin-bottom: 35px;
+    background-color: #ff7575;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c;
+    width: 10%;
+    margin-right: 10px;
+}
+
+@media (max-width:1000px) {
+    #cover {
+        width: 60%;
+    }
+    .filterOption {
+        width: 25%;
+    }
+}
+
+@media (max-width:600px) {
+    #cover {
+        margin: 10px 50px;
+        width: 100%;
+    }
+    .filterOption {
+        margin: 10px 50px;
+        width: 100%;
+    }
+}
+
+#cover form {
+    height: 25px;
+}
+
+input,
+select {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+input:active,
+input:focus,
+select:active,
+select:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #e16868;
+}
+
+.tb {
+    position: relative;
+}
+
+.s-icon {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+
+option {
+    color: black;
+}

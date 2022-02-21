@@ -1,0 +1,105 @@
+.TeamCardWrapper {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+@media (min-width: 610px) {
+    .TeamCardWrapper {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .TeamCardWrapper {
+        width: 45%;
+    }
+}
+
+@media (min-width: 992px) {
+    .TeamCardWrapper {
+        width: 30%;
+    }
+}
+
+.Card {
+    position: relative;
+    border-radius: 20px;
+    min-height: 300px;
+    font-size: large;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.Card .user-picture {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Card:hover .user-picture {
+    position: absolute;
+    z-index: 2;
+    top: -40px;
+    right: 30px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+}
+
+.Card .description {
+    font-size: 17px;
+    color: rgb(82, 81, 81);
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.Card .role {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.Card .icon {
+    color: black;
+    padding: 12px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+
+.Card .icon:hover {
+    color: white;
+    background-color: black;
+}
+
+.Card .user-name {
+    max-width: 60%;
+}
+
+.CardBody {
+    padding: 25px;
+}
+
+.loading__div {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
